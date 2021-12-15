@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2273000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a JWT is created",
+            "match": {
+              "location": "APISteps.GenerateTokenSteps.a_jwt_is_created()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-15T02:52:33.613Z",
+        "line": 27,
+        "name": "Create dynamic scenario",
+        "description": "",
+        "id": "syntax-hrm-api-workflow;create-dynamic-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "a request is prepared for creating an employee with dynamic data \"Vinicus\", \"Jose\", \"Olivera\", \"M\", \"2000-07-12\", \"Employee\", \"API Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vinicus\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"Jose\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"Olivera\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"M\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"2000-07-12\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"Employee\"",
+                  "offset": 114
+                },
+                {
+                  "val": "\"API Tester\"",
+                  "offset": 126
+                }
+              ],
+              "location": "APISteps.APIWorkFlowSteps.a_request_is_prepared_for_creating_an_employee_with_dynamic_data(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Dynamic"
+          }
+        ]
+      }
+    ],
+    "name": "Syntax HRM API workflow",
+    "description": "",
+    "id": "syntax-hrm-api-workflow",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/APIWorkFlow.feature",
+    "tags": []
+  }
+]
